@@ -1,0 +1,375 @@
+/*set container fluid and col-12 padding to 0px*/
+.padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/*Navbar css style**********************************************************/
+.nav-background {
+    background: white;
+}
+
+.paradis-logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: #173630 !important;
+}
+
+.links {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.icon-margin {
+    margin-top: 6px;
+    margin-left: 20px;
+}
+
+.link-margin {
+    margin-left: 20px;
+}
+
+.navbar-toggler {
+    border-style: none !important;
+}
+
+/*end navbar style****************************************************/
+
+/*header css*/
+.header-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.75vw;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.header-date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5625vw;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.text-button {
+    text-align: center;
+}
+
+.header-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 4px;
+    /*    width: 100%*/
+}
+
+.btn-outline {
+    color: #173630;
+    background: #fff;
+}
+
+.btn-outline:hover {
+    color: #fff;
+    background: #173630;
+}
+
+.overlay-margin {
+    margin-top: 14vw;
+}
+
+/*end header image and text********/
+
+/*upcoming event row*/
+.card {
+    border-style: none;
+}
+
+.row-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 2rem;
+
+        margin-top: 30px;
+    color: #173630;
+}
+
+.row-title-style {
+    display: flex;
+    align-items: center;
+}
+
+.row-title-style::after {
+    content: '';
+    flex: 1;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    height: 1px;
+    background-color: #173630;
+}
+
+
+
+.row-subheading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 2rem;
+    margin-bottom: 30px;
+}
+
+
+.green {
+    background: #E3F1DF;
+    padding-bottom: 50px;
+    padding-top: 1px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.subheading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.body-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.more-info-btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background: #173630;
+    color: white;
+}
+
+.more-info-btn:hover {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: white;
+    color: #173630;
+    border-style: solid;
+    border-color: #173630;
+}
+
+.card-hover:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.cards-1 {
+    margin-bottom: 20px;
+}
+
+/*upcoming event card css************/
+
+/*genre css*/
+.genre-style {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.75vw;
+    font-weight: 500;
+    color: white;
+}
+
+.genre-overlay-margin {
+    margin-top: 20vw;
+}
+
+.newsletter-box {
+    background: #173630;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /*
+    margin-top: 20px;
+    margin-bottom: 20px;
+*/
+}
+
+.newsletter-display {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+}
+
+.sub-btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+
+.sub-btn:hover {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: #fff;
+    color: #173630;
+}
+
+/*modal***************************/
+.modal-newsletter {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.modal-input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.page-footer {
+    background: #173630;
+    color: white;
+    padding: 100px;
+    margin-top: 40px;
+}
+
+.footer-logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #fff !important;
+}
+
+.footer-link {
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+/***************************************************UI KIT CSS*********************************/
+
+.festival-table {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 9px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 40px;
+}
+
+table > thead > tr > th {
+    border-bottom: 1px solid #E3F1DF;
+}
+
+table > tbody > tr > td {
+    border-bottom: 1px solid #E3F1DF;
+}
+
+.sign-in-form {
+    margin-top: 40px;
+}
+
+.form-margin {
+    margin-top: 20px;
+
+}
+
+.form-box,
+.disabled {
+    background: rgba(227, 241, 223, 0.4);
+    border-radius: 4px;
+    border-style: none !important;
+}
+
+.form-control:focus {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.form-control:focus-within {
+    border-style: none !important;
+}
+
+.form-padding {
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 9px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.sign-in {
+    background: #173630;
+    border: 1px solid #173630;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.sign-in:hover {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: white;
+    color: #173630;
+    border-style: solid;
+    border-color: #173630;
+}
+
+.btn-filled {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    background: #173630;
+    border-radius: 4px;
+}
+
+.btn-filled:hover {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+
+.btn-oulined {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+
+    color: #173630;
+
+    background: #FFFFFF;
+    border: 1px solid #173630;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.btn-white-filled {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+
+    color: #173630;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
